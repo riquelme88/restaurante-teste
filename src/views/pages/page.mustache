@@ -1,0 +1,20 @@
+{{>partials/header}}
+
+<div class="sections">
+{{#dishe}}
+    <div class="sec breakfast">
+        <div class="img_area">
+            <img src="images/{{image}}" alt="">
+        </div>
+        <div class="info-area">
+            <div class="title">
+                <h4>{{name}}</h4>
+                <span>${{price}}</span>
+            </div>
+            <div class="info">
+                {{phrase}}
+            </div>
+        </div>
+    </div>
+{{/dishe}}
+</div>
